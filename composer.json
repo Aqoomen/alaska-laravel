@@ -1,0 +1,27 @@
+{
+    "name": "aqoomen/alaska-laravel",
+    "description": "this is short cms for laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "iPremium Agency",
+            "email": "web@aipremium.ru"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/Aqoomen/alaska-laravel.git"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aqoomen\\Alaska\\": "src"
+        }
+    }
+}
