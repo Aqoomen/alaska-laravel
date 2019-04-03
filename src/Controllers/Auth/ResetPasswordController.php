@@ -7,7 +7,7 @@ use Auth;
 use Illuminate\Http\Request;
 use Helori\LaravelAdmin\Models\Admin;
 use Illuminate\Support\Facades\Password;
-use Helori\LaravelAdmin\Controllers\Controller;
+use iPremium\Alaska\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class ResetPasswordController extends Controller

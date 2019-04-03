@@ -3,7 +3,7 @@ namespace iPremium\Alaska\Controllers\Auth;
 
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
-use Helori\LaravelAdmin\Controllers\Controller;
+use iPremium\Alaska\Controllers\Controller;
 
 class RegisterController extends Controller
 {

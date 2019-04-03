@@ -3,7 +3,7 @@ namespace iPremium\Alaska\Controllers\Auth;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Helori\LaravelAdmin\Controllers\Controller;
+use iPremium\Alaska\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
 
