@@ -1,14 +1,14 @@
 <?php
 
-namespace iPremium\Alaska\Models\Shop;
+namespace iPremium\Alaska\Models\Project;
 
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Database\Eloquent\Model;
 
-class Price extends Model
+class Info extends Model
 {
-    protected $table = 'price';
+    protected $table = 'project_list';
 
     protected $dates = ['created_at', 'updated_at'];
 

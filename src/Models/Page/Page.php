@@ -1,14 +1,16 @@
 <?php
 
-namespace iPremium\Alaska\Models\Shop;
+namespace iPremium\Alaska\Models\Page;
 
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Database\Eloquent\Model;
 
-class Price extends Model
+
+class Page extends Model
 {
-    protected $table = 'price';
+
+    protected $table = 'pages';
 
     protected $dates = ['created_at', 'updated_at'];
 
@@ -17,5 +19,6 @@ class Price extends Model
     protected $hidden = [];
 
     protected $guarded = [];
+
 
 }

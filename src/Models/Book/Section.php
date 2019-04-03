@@ -1,14 +1,14 @@
 <?php
 
-namespace iPremium\Alaska\Models\Shop;
+namespace iPremium\Alaska\Models\Book;
 
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Database\Eloquent\Model;
 
-class Price extends Model
+class Section extends Model
 {
-    protected $table = 'price';
+    protected $table = 'book_sections';
 
     protected $dates = ['created_at', 'updated_at'];
 
@@ -17,5 +17,4 @@ class Price extends Model
     protected $hidden = [];
 
     protected $guarded = [];
-
 }
