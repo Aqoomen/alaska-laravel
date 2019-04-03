@@ -2,6 +2,7 @@
     "name": "aqoomen/alaska-laravel",
     "description": "this is short cms for laravel",
     "type": "library",
+    "version":"1.0.1",
     "license": "MIT",
     "authors": [
         {
@@ -17,7 +18,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=7.0.0"
     },
     "autoload": {
         "psr-4": {
