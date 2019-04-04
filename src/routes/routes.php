@@ -1,7 +1,7 @@
 <?php
 
 
-    Route::group(['prefix' => 'admin'], function ($router) {
+    Route::group(['prefix' => 'admin', 'middleware' => 'web'], function ($router) {
 
         Route::get('login', [
             'uses' => '\iPremium\Alaska\Controllers\Auth\LoginController@showLoginForm',

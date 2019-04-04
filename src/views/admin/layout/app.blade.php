@@ -12,7 +12,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="white" />
 
-    <link rel="stylesheet" type="text/css" href="{{ mix('css/admin.css') }}">
+    <link rel="stylesheet" type="text/css" href=" ">
 
 </head>
 
@@ -32,6 +32,6 @@
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 <!-- Scripts -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
-<script src="{{ mix('js/admin.js') }}"></script>
+<script src=" "></script>
 
 </body>
